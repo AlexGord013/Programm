@@ -1,0 +1,53 @@
+from tkinter import *
+
+root = Tk()
+e1 = Entry(width=50)
+
+
+def q():
+    e1.delete(0,END)
+    e1.insert(0,"krasniy")
+
+def w():
+    e1.delete(0, END)
+    e1.insert(0,"ораньжевый")
+
+def e():
+    e1.delete(0, END)
+    e1.insert(0,"жёлтый")
+
+def r():
+    e1.delete(0, END)
+    e1.insert(0,"зелёный")
+
+def t():
+    e1.delete(0, END)
+    e1.insert(0,"голубой")
+
+def y():
+    e1.delete(0, END)
+    e1.insert(0,"синий")
+
+def u():
+    e1.delete(0, END)
+    e1.insert(0,"фиолетовый")
+
+
+
+but1 = Button(width=50 , bg='#ff0000', command=q)
+but2 = Button(width=50 , bg='#ff7d00', command=w)
+but3 = Button(width=50 , bg='#ffff00', command=e)
+but4 = Button(width=50 , bg='#00ff00', command=r)
+but5 = Button(width=50 , bg='#007dff', command=t)
+but6 = Button(width=50 , bg='#0000ff', command=y)
+but7 = Button(width=50 , bg='#7d00ff', command=u)
+
+e1.pack()
+but1.pack()
+but2.pack()
+but3.pack()
+but4.pack()
+but5.pack()
+but6.pack()
+but7.pack()
+root.mainloop()

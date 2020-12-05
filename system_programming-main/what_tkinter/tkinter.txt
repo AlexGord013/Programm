@@ -1,0 +1,61 @@
+from tkinter import *
+
+def p1():
+    per1 = ent1.get()
+    return int(per1)
+
+def p2():
+     per2 = ent2.get()
+     return int(per2)
+
+def b1(event):
+    i = p1() + p2()
+    i = str(i)
+    lab['text'] = ' '.join(i)
+
+def b2(event):
+    print()
+    i = p1() - p2()
+    i = str(i)
+    lab['text'] = ' '.join(i)
+
+def b3(event):
+    i = (p1() * p2())
+    i = str(i)
+    lab['text'] = ' '.join(i)
+
+def b4(event):
+    i = p1() / p2()
+    i = str(i)
+    lab['text'] = ' '.join(i)
+
+root = Tk()
+
+ent1 = Entry(root, width=20)
+ent2 = Entry(root, width=20)
+
+but1 = Button(root,width=20 , text="+")
+but2 = Button(root,width=20 , text="-")
+but3 = Button(root,width=20 , text="*")
+but4 = Button(root,width=20 , text="/")
+
+lab = Label(root, width=20, fg='black')
+
+but1.bind('<Button-1>', b1)
+but2.bind('<Button-1>', b2)
+but3.bind('<Button-1>', b3)
+but4.bind('<Button-1>', b4)
+
+ent1.pack()
+ent2.pack()
+
+but1.pack()
+but2.pack()
+but3.pack()
+but4.pack()
+
+lab.pack()
+
+root.mainloop()
+
+
