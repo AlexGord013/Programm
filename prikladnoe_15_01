@@ -1,0 +1,72 @@
+    #$arr=[1=>'a',2=>'b',3=>'c'];
+
+    #$date=['name'=>'igory','surname'=>'igorev ','patronymic'=>'igorevich'];
+    #echo $date['name'];
+    #echo $date['surname'];
+    #echo $date['patronymic'];
+  
+    #$arr1 = ['a'  'b' , 'c' , 'd'];
+    #echo count($arr1);
+
+    #$arr = ['a', 'b', 'c', 'd', 'e'];
+    #echo $arr[count($arr) - 1];
+
+    #$arr = [];
+    #$arr[] = '1';
+    #$arr[] = '2';
+    #$arr[] = '3';
+    #$arr[] = '4';
+    #$arr[] = '5';
+
+
+
+    #$arr = [];
+    #$arr['year'] = '2022';
+    #$arr['month'] = '01';
+    #$arr['day'] = '14';
+    
+	
+	
+    #$test = 11;
+	
+	#if ($test > 10) {
+		#echo '+'; 
+	#} else {
+		#echo '-';
+	#}
+
+    
+
+    #$test = 10;
+	
+	#if ($test >= 10) {
+	#	echo '+'; 
+	#} else {
+	#	echo '-';
+	#}
+    
+	
+    
+    #$test =10;
+
+    #if ($test==10) {
+    #    echo 'da';
+    #}
+    #else {
+    #    echo 'net';
+    #}
+    
+	
+    
+    #$test = 5;
+    #$test1 = 9;
+    #
+    #if ($test>$test1) {
+    #    echo 'test>';
+    #}
+    #if ($test<$test1) {
+    #    echo'test1>';
+    #}
+
+    
+
